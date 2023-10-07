@@ -1,0 +1,75 @@
+body {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    background-color: #b9a2a2; 
+    margin: 0;
+    padding: 0;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
+  }
+
+  .container {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .main-nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+  }
+
+  .main-nav ul li {
+    flex: 1;
+    text-align: center;
+  }
+
+  .main-nav ul li a {
+    display: block;
+    color: #3c3333;
+    text-decoration: none;
+    font-size: 1.25rem;
+  }
+
+  form input,
+  form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: .5rem 1rem;
+    border: 1px solid #d2a5a5;
+    border-radius: 4px;
+  }
+
+  form textarea {
+    min-height: 150px;
+    max-height: 150px;
+    height: 150px;
+    resize: vertical;
+  }
+
+  form button {
+    background: #000;
+    color: #ae7575;
+    border: 2px solid #000;
+    padding: 1rem;
+    text-transform: uppercase;
+  }
+
+  .site-footer {
+    padding: 2rem 0;
+    text-align: center; 
+  }
